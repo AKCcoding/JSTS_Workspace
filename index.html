@@ -4,6 +4,7 @@
     <h2>My 2nd JS/TS Program</h2>
 
     <p id="text">Alrae</p>
+    <p id="number"></p>
 
     <button onclick="changeSize()">Change size</button>
     <button type="button" onclick="hideText()">Hide Me!</button>
@@ -11,6 +12,13 @@
     <button type="button" onclick="document.write(5+6)">Try</button>
     <button onclick="window.print()">Print this page</button>
   </body>
+
   <script src="javascript files/Alert.js"></script>
   <script src="javascript files/HideText.js"></script>
+  //Sample Arithmetic
+  <script>
+    let a = 3;
+    let x = (100 + 50) * a;
+    document.getElementById("number").innerHTML = x;
+  </script>
 </html>
