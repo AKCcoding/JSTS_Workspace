@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div id="practice"></div>
-</body>
-<script src="IIFE.js"></script>
+<html>
+  <body>
+    <h2>My 2nd JS/TS Program</h2>
+
+    <p id="text">Alrae</p>
+    <p id="number"></p>
+    <p id="alphabet"></p>
+
+    <button onclick="changeSize()">Change size</button>
+    <button type="button" onclick="hideText()">Hide Me!</button>
+    <button type="button" onclick="showText()">Show Me!</button>
+    <button type="button" onclick="document.write(5+6)">Try</button>
+    <button onclick="window.print()">Print this page</button>
+  </body>
+
+  <script src="javascript files/Alert.js"></script>
+  <script src="javascript files/HideText.js"></script>
+  //Sample Arithmetic
+  <script>
+    let a = 5;
+    let x = (150 + 50) * a;
+    document.getElementById("number").innerHTML = x;
+
+    let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    document.getElementById("alphabet").innerHTML = text.length;
+  </script>
 </html>
